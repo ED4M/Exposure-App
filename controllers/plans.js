@@ -242,11 +242,13 @@ plansRouter.put('/:id', async (req, res) => {
 
   const updatedPlan = await Plan.findByIdAndUpdate(req.params.id, plan, { new: true });
 
-  await User
+  if (oldPlan.employee !== updatedPlan.employee) {
+    await User
     .findByIdAndUpdate(oldPlan.employee, { attachedToPlan: false });
 
-  await User
+    await User
     .findByIdAndUpdate(body.employee, { attachedToPlan: true });
+  }
 
   const newPlan = await Plan
     .findById(updatedPlan.id)
