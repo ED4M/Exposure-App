@@ -1,11 +1,13 @@
 # Exposure App
-Extremely convenient way to track your new employees affiliation progress.
+Удобное решение для отслеживания процесса адаптации сотрудников.
 
-## Важная информация
-**Актуальный код нашего приложения лежит в ветке master.** Код фронта вы можете найти в ветке [front](https://github.com/greenatom-hr-case-lab/exposure-app-4x4/tree/front).
+Проект был сделан командой как конкурсный проект для отбора на стажировку.
+Описание поставленной (выполненной) задачи кейса можно найти [здесь](https://www.notion.so/3a120ed0cf2b4418a5d833352ac0e103).
 
-- [Отчет за первую неделю](https://youtu.be/-ZwnUnwZZlc)
-- [Отчет за вторую неделю](https://youtu.be/-0WG5laPraQ)
+Исходный код фронтенд-составляющей можно посмотреть в ветке [front](https://github.com/ED4M/Exposure-App/tree/front).
+
+Примечание: доступ к БД настроен в режиме *read-only*.
+
 
 ## Как использовать
   После клонирования репозитория:
